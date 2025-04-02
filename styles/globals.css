@@ -1,0 +1,470 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    background-color: #2a2101;
+    padding: 10px 0px;
+}
+
+.logo-img {
+    width: 180px;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.h2-title {
+    font-size: 30px;
+    color: white;
+}
+
+.form-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper {
+    width: 420px;
+    border: none;
+    backdrop-filter: blur(9px);
+    color: black;
+    border-radius: 12px;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+}
+
+.wrapper-out{
+    border: 2px solid #b5b326;
+    background-color: #b6b3261a;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    /* background: #2d2c25; */
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    padding: 12px 45px 12px 40px;
+    margin-top: 2px;
+}
+
+.input-box input::placeholder {
+    color: #000;
+}
+
+.input-box i {
+    position: absolute;
+    left: 20px;
+    top: 32%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: #b5b326;
+}
+
+.input-box button {
+    position: absolute;
+    right: -60px;
+    top: 4%;
+    transform: translate(-50%);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.input-box button i{
+    color: #000;
+}
+
+.input-box button:disabled {
+    cursor: not-allowed;
+}
+
+.red-error-text {
+    padding: 0px 10px;
+    color: red;
+    margin: auto;
+}
+
+.input-box button p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 2px 2px 10px;
+    background: #b5b326;
+    border-radius: 40px;
+    margin-top: 11px;
+    margin-right: 2px;
+}
+
+.input-box button i {
+    position: static;
+}
+
+.g-img {
+    position: absolute;
+    top: -82px !important;
+    right: -75px !important;
+    height: 150px;
+    width: 130px;
+}
+
+.g-img img {
+    height: 150px;
+    width: 130px;
+}
+
+/* Input Box CSS */
+
+.input-box-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.input-box-2 input {
+    width: 100%;
+    height: 100%;
+    /* background: #2d2c25; */
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px 45px 12px 40px;
+    margin-top: 2px;
+    color: black;
+}
+
+.input-box-2 input::placeholder {
+    color: #000;
+}
+
+.input-box-2 i {
+    position: absolute;
+    left: 20px;
+    top: 32%;
+    transform: translate(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #b5b326;
+}
+
+.input-box-2 a {
+    position: absolute;
+    right: 50px;
+    top: 32%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.input-box-inner {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+}
+
+.input-box-inner i {
+    position: static;
+}
+
+.phone-input {
+    padding: 12px 45px 12px 65px !important;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: auto;
+    background: #b5b326;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+.wrapper .whatsApp-btn {
+    width: 100%;
+    height: auto;
+    background: rgba(75, 162, 34, 1);
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+.wrapper .whatsApp-btn i {
+    font-size: 22px;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+    .wrapper {
+        padding: 20px 10px;
+        padding-bottom: 5px;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #2d2c25;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.or-btn {
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.or-btn h4 {
+    color: white;
+    text-align: center;
+}
+
+.or-btn h4::before {
+    content: "";
+    width: calc(50% - 25px);
+    position: absolute;
+    left: 0;
+    top: calc(50% - 1px);
+    background: #fff;
+    height: 2px;
+}
+
+.or-btn h4::after {
+    content: "";
+    width: calc(50% - 25px);
+    position: absolute;
+    right: 0;
+    left: inherit;
+    bottom: calc(50% - 1px);
+    background: #fff;
+    height: 2px;
+}
+
+.wrapper marquee img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(-100%, 0);
+    }
+}
+
+/* Responsive Code */
+
+@media (max-width:425px) {
+    .wrapper {
+        width: 98%;
+    }
+}
+
+/* Popup Code */
+
+.popup-code {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #b6b326, #bdba22, #c4c01d, #cbc716, #d2ce0c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.popup-main-box {
+    width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-main-box img {
+    width: 90%;
+    height: auto;
+}
+
+.popup-middle-box {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.congrats-para {
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.won-para {
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.won-amount {
+    line-height: 1;
+    color: red;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.won-amount sup {
+    font-size: 40px;
+}
+
+.username-para {
+    color: red;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.popup-middle-box button {
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    animation: abc 1.3s infinite;
+}
+
+@keyframes abc {
+    0% {
+        background-color: #cac725;
+        box-shadow: 0 0 3px #b6b326;
+    }
+
+    50% {
+        background-color: #fdfa5a;
+        box-shadow: 0 0 15px #b6b326;
+    }
+
+    100% {
+        background-color: #cac725;
+        box-shadow: 0 0 3px #b6b326;
+    }
+}
+
+.note-text {
+    font-size: 12px;
+}

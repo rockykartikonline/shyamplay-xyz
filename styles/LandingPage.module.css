@@ -1,0 +1,224 @@
+.body2{
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 20px;
+    background-image: url('/images/login_bg-compress.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: hue;
+}
+
+.body2 a{
+    text-decoration: none;
+}
+
+.head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg {
+    width: 180px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.box{
+    max-width: 500px;
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    border: 2px solid #212f7f;
+    background-color: #441760;
+    color: #ffe9c6;
+}
+
+.box2{
+    max-width: 500px;
+    width: 90%;
+    /* background-color: white; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.boxes{
+    width: 30%;
+    height: 80px;
+    background-color: #441760;
+    color: #ffe9c6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid #212f7f;
+}
+
+.boxes img{
+    width: 35px;
+    height: 35px;
+}
+
+.boxes p{
+    font-weight: 600;
+}
+
+.box3{
+    max-width: 500px;
+    width: 98%;
+    background: #2d2c25;
+    color: #ffe9c6;
+    height: 70px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.tab{
+    width: 15%;
+    height: 30px;
+    position: absolute;
+    bottom: 30%;
+    right: 0px;
+    background: linear-gradient(135deg, rgba(225, 218, 53, 1) 0%, rgba(20, 20, 0, 1) 100%);
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab img{
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 10px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+.gradientLine { 
+    width: 60%;
+    height: 5px;
+    background: linear-gradient(90deg, #57b947, #009ad6 35%, #57b947 65%, #009ad6 );
+    background-size: 400% 400%;
+    animation: Gradient 5s ease infinite;
+    border: none;
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  .wrapper {
+    width: 500px;
+    border: none;
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    /* background: linear-gradient(135deg, rgba(159, 154, 34, 1) 0%, rgba(24, 25, 0, 1) 100%); */
+    background: rgba(181, 179, 38, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper marquee img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(-100%, 0);
+    }
+}
+
+@media (max-width: 425px) {
+    .wrapper {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .wrapper {
+        width: 98%;
+    }
+}
+
+  @media (max-width:600px) {
+    .box h2{
+        font-size: 18px;
+    }
+    .box3 h2{
+        font-size: 20px;
+    }
+  }
+
+  @media (max-width:345px) {
+    .box h2{
+        font-size: 17px;
+    }
+  }
