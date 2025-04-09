@@ -108,12 +108,12 @@ export default function Home() {
         t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '2056891108149190');
+        fbq('init', '685663313975456');
         fbq('track', 'PageView');
         `}
       </Script>
       <noscript>
-        <img height="1" width="1" src="https://www.facebook.com/tr?id=2056891108149190&ev=PageView&noscript=1" />
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=685663313975456&ev=PageView&noscript=1" />
       </noscript>
       {/* <!-- Google tag (gtag.js) --> */}
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZCL1QE0P7K" />
