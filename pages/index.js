@@ -182,7 +182,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
             <div className="or-btn">
               <h4>OR</h4>
             </div>
-            <Link href="https://wa.me/+918856958256">
+            <Link href="https://wa.me/+918302401270">
               <h5 className="whatsApp-btn"><i className="fa-brands fa-whatsapp"></i>Get Instant ID On Whatsapp</h5>
             </Link>
           </form>
